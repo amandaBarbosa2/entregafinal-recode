@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 912px;
+    min-width: 1348px;
+  }
+  
+  
+  p{
+    color: rgb(255, 0, 140);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 20px;
+  }
+  
+  .formas_pagamento{
+
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .formas_pagamento_txt{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  #footer{
+    margin-top: 60px;
+  }
+  
+  
+  .rosa {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu{
+    text-align:center;
+     width:5%;
+  }
+  
+  .table_menu{
+    width: 100%; 
+    background-color: blue;
+  }
+  
+  h4{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    display: inline;
+    padding: 200px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  
+  .nav:hover {
+    color:white;
+    transition: 0.3s;
+    opacity: 0.7;
+  }
+  
+  .Menu img {
+    display: flex;
+    justify-content: center;
+    width: 100px;   
+  
+  }
+
+  .Menu {
+    width: 100%; 
+    background-color: blue;
+    padding: 1em;
+    text-align: center; 
+  }
+ 
+  .h2{
+    box-align: center;
+    color: blue;
+  }
+  
+  .r{
+    color: blue;
+    box-align: center;
+  }
+  
+  .titleDes {
+    text-align: center;
+    padding: 1.5rem;
+  
+  }
+  
+  .t{
+    color: blue;
+    box-align: center;
+  }
+  
+  .l{
+    color: blue;
+    box-align: center; 
+  }
+  
+  .s{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .h1{
+    color: blue;
+    box-align: center;
+  }
+  
+  .packages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .footer {
+    position: absolute;
+    margin-top: 100vh;
+    text-align: center;  
+  }
+  
+  .pfoot {
+    margin:20px 20px 20px;
+    color: black;   
+  }
+  
+  .forminput {
+    display: flex;
+    justify-content: center;
+    padding: 10px;   
+  }
+  
+  .forminput form {
+    margin-top: 10px;
+  }
+  
+  .asidelist {
+    display: flex; 
+  }
+  
+  .asidelist ol {
+    
+    margin-left: 30px;
+    border-radius: 5px;
+    padding-top: 2px;
+    border: 1px;    
+  }
+  
+  .asidelist ol:hover{
+  
+    border: 1px solid blue;
+    transition: 0.7s;
+  }
+  
+  
+  .asidelist ol h1 {
+    position: inline-block;
+    margin-right: 30px;    
+  }
+  
+  
+  .table{
+    border:0;
+    width:100%;
+    scroll-padding:20;
+  }
+  
+  .eu{
+    width:50%;
+    text-align:center;
+  }
+  
+  
+  .a{
+    width:40px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .fontt{
+    font-family: Arial;
+    font-size: 20px;
+  }
+  
+  .b{
+    width:400px;
+  }
+  
+  
+  .immg{
+    width: 5%;
+    text-align: center;
+    margin: bottom;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%; 
+    height: auto;
+  }
+  
+  .img{
+     width: 200px;
+     height: 120px;
+     max-width: 100%; 
+     height: auto;
+  }
+  
+  .font1{
+    font-family: Arial;
+    font-size: 15px; 
+    color: black;
+    text-align: center;
+    font-weight: bold
+  }
+  
+  .font2{
+    font-family: Arial;
+    font-size: 14px; 
+    color: black;
+    text-align: center;
+  }
+  
+  .font3{
+    font-family: Arial;
+    font-size: 17px; 
+    color: red;
+    text-align: center;
+    font-weight: bold
+  }
+
+  .font4{
+    font-family: Arial;
+    font-size: 19px; 
+    color: blue;
+    text-align: center;
+    font-weight: bold
+  }
+
+
+
+  
+
+  @media (max-width: 768px) {
+      #primary { width:100%; }
+      #secondary { width:100%; margin:0; border:none; }
+  }
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+@media (max-width: 640px) { body {font-size:1rem;} } 
+@media (max-width:960px) { body {font-size:1.2rem;} } 
+@media (max-width:1100px) { body {font-size:1.5rem;} } 
